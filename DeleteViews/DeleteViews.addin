@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DeleteViews</Text>
+    <Description>Some description for DeleteViews</Description>
+    <Assembly>DeleteViews.dll</Assembly>
+    <FullClassName>DeleteViews.Command</FullClassName>
+    <ClientId>42f357f5-0734-4561-a99b-ac7f28595eb5</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DeleteViews</Name>
+    <Assembly>DeleteViews.dll</Assembly>
+    <FullClassName>DeleteViews.App</FullClassName>
+    <ClientId>777a735e-cf59-4bf5-bb2c-9e7f4732bef3</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
